@@ -27,3 +27,9 @@ $ tree
 ```
 
 NOTE: Use only for development purposes. As it was developed for my own personal use, I assume no responsibility for its use.
+
+# Build
+
+```
+$ cargo build --release
+```
