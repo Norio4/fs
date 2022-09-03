@@ -33,3 +33,12 @@ NOTE: Use only for development purposes. As it was developed for my own personal
 ```
 $ cargo build --release
 ```
+
+# SSL
+
+* certs/key.pem (pricate key file)
+* certs/cert.pem (certificate chain file)
+
+```
+$ RUN_PORT=3000 SSL_MODE=true ./fs
+```
